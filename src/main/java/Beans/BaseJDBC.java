@@ -1,9 +1,10 @@
+package Beans;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class testJDBC {
+public class BaseJDBC {
     public static void testJDBC(){
         try {
             //Identifiants

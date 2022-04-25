@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class BaseJDBC {
-    public static void testJDBC(){
+    public static void testJDBC(String requete){
         try {
             //Identifiants
             String nomUtilisateur="root";
@@ -21,8 +21,7 @@ public class BaseJDBC {
             Connection connexion=DriverManager.getConnection(connec);
             Statement statement=connexion.createStatement();
 
-            //Requête
-            String requete="SELECT * FROM animal";
+
 
             //Récup requête
             ResultSet rs= statement.executeQuery(requete);
@@ -30,7 +29,7 @@ public class BaseJDBC {
             //Traitement
             while (rs.next()){
                 System.out.println(
-                        rs.getString("nom")+","+rs.getString("espece"));
+                        rs.getString("nom"));//+","+rs.getString("espece"));
 
             }
 

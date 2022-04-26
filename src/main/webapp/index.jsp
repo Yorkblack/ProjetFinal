@@ -11,6 +11,7 @@
 <br/>
 
 <a href="inscription.jsp" class="btn btn-secondary btn-lg active" role="button"> Inscription </a>
+<a href="connexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Connection </a>
 <nav>
     <a href="#"></a>
     <nav class="navbar navbar-dark bg-dark">
@@ -22,11 +23,11 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                    <a class="nav-link" href="#">Amerique du nord</a>
-                    <a class="nav-link" href="#">Amerique du sud</a>
-                    <a class="nav-link" href="#">Asie</a>
-                    <a class="nav-link" href="#">Europe</a>
-                    <a class="nav-link" href="#">Bibliothèque</a>
+                    <a class="nav-link" href="ameriqueDuN.jsp">Amerique du nord</a>
+                    <a class="nav-link" href="ameriqueDuS.jsp">Amerique du sud</a>
+                    <a class="nav-link" href="asie.jsp">Asie</a>
+                    <a class="nav-link" href="europe.jsp">Europe</a>
+                    <a class="nav-link" href="bibliotheque.jsp">Bibliothèque</a>
                     <a class="nav-link" href="#">Profil/déconnection</a>
                     <a class="nav-link disabled">Disabled</a>
                 </div>
@@ -45,16 +46,16 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/loup.jpg" class="d-block" alt="loup" >
+                <img src="image/loup.jpg" class="d-block" alt="loup" height=800 width=1500 >
             </div>
             <div class="carousel-item">
-                <img src="image/lycaon.jpg" class="d-block" alt="lycaon">
+                <img src="image/lycaon.jpg" class="d-block" alt="lycaon" height=800 width=1500 >
             </div>
             <div class="carousel-item">
-                <img src="image/chacal.jpg" class="d-block" alt="chacal">
+                <img src="image/chacal.jpg" class="d-block" alt="chacal" height=800 width=1500>
             </div>
             <div class="carousel-item">
-                <img src="image/fennec.jpg" class="d-block" alt="fennec">
+                <img src="image/fennec.jpg" class="d-block" alt="fennec" height=800 width=1500>
             </div>
 
         </div>
@@ -102,10 +103,17 @@
 
     <div class="row text-center">
         <div class="embed-responsive embed-responsive-16by9">
-            <br>  <br>
+            <br>
+Lors ce que l'on pense au canidé on pense naturellement au loup et surtout au chien, mais il existe beaucoup d'espece; vous trouverez dans le menu des liste de canidae en fonction des continents ainsi qu'une bibliothèque afin d'avoir une vue d'ensemble.
+            <br> <br>
+<h3> La domestication du chien </h3>
+            La recherche de nourriture par les loups a constitué le point de départ de sa domestication. Pour cela, il s’est en effet rapproché des camps humains. Diverses hypothèses ont été avancées concernant cette domestication : chasse, gardiennage, compagnie et enfin d’après une étude récente, comme tête de bétail pour fournir de la viande aux hommes de l’époque.
+<br>
+            Ainsi, cette période qui a fait naître les chiens domestiques se situerait entre les chasseurs-cueilleurs et les premiers agriculteurs, en parallèle de l’émergence de la culture du riz, c’est-à-dire, entre 5400 et 16 300 ans.
+<br> <br>
+            <img src="image/genealogie-historique-du-chien.jpg" alt="sousespece">
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/g6HzTtMxGLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> </div>
-    <footer class="bg-light text-center text-lg-start">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/z10Pn4WOw-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
         <br>
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -114,6 +122,8 @@
         </div>
     </footer>
     <!-- <p> Here is the code </p> -->
+</div>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

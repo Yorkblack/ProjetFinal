@@ -9,6 +9,8 @@ public class UtilisateurDAO {
 
     public void initialisation() {
         try {
+            Class.forName("org.mariadb.jdbc.Driver");
+
             //Identifiants
             String nomUtilisateur = "root";
             String motDePasse = "pass";
@@ -21,7 +23,7 @@ public class UtilisateurDAO {
 
             //Connexion
             connexion = DriverManager.getConnection(connec);
-
+            System.out.println("connexion "+connexion);
 
         } catch (Exception e) {
             System.out.println("Exception : " + e.getMessage());
@@ -38,7 +40,7 @@ public class UtilisateurDAO {
     public void nouvelUtilisateur(Utilisateur a){
         try{
             Statement statement=connexion.createStatement();
-            String requete="INSERT INTO utilisateur VALUES(DEFAULT,'"+a.getMail()+"','"+a.getPseudo()+"','"+a.getPassword()+");";
+            String requete="INSERT INTO utilisateur VALUES(DEFAULT,'"+a.getMail()+"','"+a.getPseudo()+"','"+a.getPassword()+"');";
             statement.executeUpdate(requete);
         }catch (SQLException throwables){
             throwables.printStackTrace();

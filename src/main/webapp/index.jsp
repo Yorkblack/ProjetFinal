@@ -9,8 +9,8 @@
 <body>
 
 <br/>
-<button type="button" class="btn btn-secondary btn-lg" href="inscription.jsp" >Inscription </button>
 
+<a href="inscription.jsp" class="btn btn-secondary btn-lg active" role="button"> Inscription </a>
 <nav>
     <a href="#"></a>
     <nav class="navbar navbar-dark bg-dark">

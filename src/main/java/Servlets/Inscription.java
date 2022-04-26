@@ -1,9 +1,13 @@
 package Servlets;
 
+import Beans.Utilisateur;
+import Beans.UtilisateurDAO;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet(name = "Inscription", value = "/Inscription")
 public class Inscription extends HttpServlet {
@@ -16,6 +20,13 @@ public class Inscription extends HttpServlet {
         request.setAttribute("utilisateur", pseudo);
         request.setAttribute("email", courriel);
         request.setAttribute("password", password);
+        Utilisateur u = new Utilisateur(pseudo, courriel,password);
+        UtilisateurDAO dao = new UtilisateurDAO();
+        dao.initialisation();
+        dao.nouvelUtilisateur(u);
+        List<Utilisateur> utilisateurs=dao.affichageUtilisateurs();
+        for (Utilisateur a:utilisateurs) System.out.println(a);
+        dao.cloture();
 
 
 

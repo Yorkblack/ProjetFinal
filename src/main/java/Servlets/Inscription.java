@@ -23,16 +23,30 @@ public class Inscription extends HttpServlet {
         request.setAttribute("email", courriel);
         request.setAttribute("password", password);
 
-        Utilisateur u = new Utilisateur(pseudo, courriel,password);
         UtilisateurDAO dao = new UtilisateurDAO();
         dao.initialisation();
-        dao.nouvelUtilisateur(u);
+
+        if (dao.checkPseudoExist(pseudo)==true) {
+            System.out.println("le pseudo existe");
+            this.getServletContext().getRequestDispatcher("/inscription.jsp").forward(request, response);
+            return;
+        }
+        if (dao.checkMailExist(courriel)==true)
+        {
+            System.out.println("le mail existe");
+            this.getServletContext().getRequestDispatcher("/inscription.jsp").forward(request, response);
+            return;
+        }
+
         List<Utilisateur> utilisateurs=dao.affichageUtilisateurs();
+
+
+
+        Utilisateur u = new Utilisateur(pseudo, courriel,password);
+        dao.nouvelUtilisateur(u);
+
         for (Utilisateur a:utilisateurs) System.out.println(a);
         dao.cloture();
-
-
-
         this.getServletContext().getRequestDispatcher("/affichageValeurs.jsp").forward(request, response);
     }
 

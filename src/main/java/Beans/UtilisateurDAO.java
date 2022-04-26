@@ -55,12 +55,38 @@ public class UtilisateurDAO {
             String requete = "SELECT * FROM utilisateur;";
             ResultSet rs = statement.executeQuery(requete);
             while (rs.next()){
-                utilisateurs.add(new Utilisateur(rs.getString("mail"),rs.getString("speudo"),rs.getString("mdp")));
+                utilisateurs.add(new Utilisateur(rs.getString("speudo"),rs.getString("mail"),rs.getString("mdp")));
             }
         }catch (SQLException throwables){
             throwables.printStackTrace();
 
         }
         return utilisateurs;
+    }
+
+    public boolean checkPseudoExist(String pseudo){
+        String query = "SELECT * FROM utilisateur WHERE speudo = ?";
+        try (PreparedStatement statement = connexion.prepareStatement(query)) {
+            statement.setString(1, pseudo);
+            try(ResultSet rs = statement.executeQuery()) {
+                return rs.next();
+            }
+        } catch(SQLException se) {
+            se.printStackTrace();
+            return false;
+        }
+    }
+
+    public boolean checkMailExist(String mail){
+        String query = "SELECT * FROM utilisateur WHERE mail = ?";
+        try (PreparedStatement statement = connexion.prepareStatement(query)) {
+            statement.setString(1, mail);
+            try(ResultSet rs = statement.executeQuery()) {
+                return rs.next();
+            }
+        } catch(SQLException se) {
+            se.printStackTrace();
+            return false;
+        }
     }
 }

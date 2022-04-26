@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="inscription BDD qui marche pas des masse">
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="inscription BDD qui marche wahou">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Beans/UtilisateurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/UtilisateurDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" afterDir="false" />
@@ -220,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650882511306</updated>
       <workItem from="1650882513036" duration="8942000" />
-      <workItem from="1650959083275" duration="5897000" />
+      <workItem from="1650959083275" duration="10069000" />
     </task>
     <task id="LOCAL-00001" summary="projet restructuré qui est censé à peu près marcher">
       <created>1650882879978</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650962972081</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inscription BDD qui marche wahou">
+      <created>1650965185204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650965185204</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +278,8 @@
     <MESSAGE value="projet restructuré qui est censé à peu près marcher" />
     <MESSAGE value="jsp qui marchent à peu près" />
     <MESSAGE value="inscription BDD qui marche pas des masse" />
-    <option name="LAST_COMMIT_MESSAGE" value="inscription BDD qui marche pas des masse" />
+    <MESSAGE value="inscription BDD qui marche wahou" />
+    <option name="LAST_COMMIT_MESSAGE" value="inscription BDD qui marche wahou" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

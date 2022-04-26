@@ -9,10 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="inscription BDD qui marche pas des masse">
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="modif carouselle">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/asie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bibliotheque.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/echecInscription.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/europe.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Beans/UtilisateurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/UtilisateurDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -52,36 +58,41 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="28HnitwtHHWPGmpSEveUoeo9DKm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Yorkblack/Desktop/correctionExercicesJEE&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable&quot;
-  }
-}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanessa\Desktop\activ'recrut'ing\java\ProjetFinal\src\main\webapp" />
       <recent name="C:\Users\Yorkblack\IdeaProjects\ProjetFinal\src\main\webapp" />
       <recent name="C:\Users\Yorkblack\IdeaProjects\ProjetFinal\src\main\webapp\jsp" />
       <recent name="C:\Users\Yorkblack\IdeaProjects\ProjetFinal\src\main\webapp\html" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.62">
-    <configuration name="Beans.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/ProjetFinal" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.62" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\Activ\apache-tomcat-9.0.62" />
+          <option name="version" value="9.0.62.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Beans.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Beans.Main" />
       <module name="ProjetFinal" />
       <extension name="coverage">
@@ -95,6 +106,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ProjetFinal:war exploded">
@@ -181,35 +193,10 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="adminPort" value="8005" />
-      <option name="contextPath" value="/ProjetFinal" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.62" />
-          <option name="number" value="0" />
-          <option name="path" value="D:\Activ\apache-tomcat-9.0.62" />
-          <option name="version" value="9.0.62.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Beans.Main" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.62" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Beans.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -220,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650882511306</updated>
       <workItem from="1650882513036" duration="8942000" />
-      <workItem from="1650959083275" duration="5897000" />
+      <workItem from="1650959083275" duration="3553000" />
     </task>
     <task id="LOCAL-00001" summary="projet restructuré qui est censé à peu près marcher">
       <created>1650882879978</created>
@@ -243,14 +230,7 @@
       <option name="project" value="LOCAL" />
       <updated>1650894417408</updated>
     </task>
-    <task id="LOCAL-00004" summary="inscription BDD qui marche pas des masse">
-      <created>1650962972081</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650962972081</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,8 +250,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="projet restructuré qui est censé à peu près marcher" />
     <MESSAGE value="jsp qui marchent à peu près" />
-    <MESSAGE value="inscription BDD qui marche pas des masse" />
-    <option name="LAST_COMMIT_MESSAGE" value="inscription BDD qui marche pas des masse" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp qui marchent à peu près" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

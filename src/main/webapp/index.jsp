@@ -10,19 +10,23 @@
 
 <br/>
 
-<a href="inscription.jsp" class="btn btn-secondary btn-lg active" role="button"> Inscription </a>
-<a href="connexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Connexion </a>
 <nav>
     <a href="#"></a>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.jsp">Accueil </a>
+
+            <a href="inscription.jsp" class="btn btn-secondary btn-lg active" role="button"> Inscription </a>
+            <a href="connexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Connexion </a>
+            <a href="#" class="btn btn-secondary btn-lg active" role="button"> Déconnexion </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.jsp">Accueil</a>
+                    <a class="nav-link" href="afrique.jsp">Afrique</a>
                     <a class="nav-link" href="ameriqueDuN.jsp">Amerique du nord</a>
                     <a class="nav-link" href="ameriqueDuS.jsp">Amerique du sud</a>
                     <a class="nav-link" href="asie.jsp">Asie</a>

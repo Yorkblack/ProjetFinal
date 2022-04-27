@@ -9,7 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="Amerique du n fini, debut Asie" />
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="Amerique du n fini, debut Asie">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/asie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/asie.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/europe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/europe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/dhole.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650962972081</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Amerique du n fini, debut Asie">
+      <created>1651066223916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651066223916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +267,8 @@
     <MESSAGE value="projet restructuré qui est censé à peu près marcher" />
     <MESSAGE value="jsp qui marchent à peu près" />
     <MESSAGE value="inscription BDD qui marche pas des masse" />
-    <option name="LAST_COMMIT_MESSAGE" value="inscription BDD qui marche pas des masse" />
+    <MESSAGE value="Amerique du n fini, debut Asie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amerique du n fini, debut Asie" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

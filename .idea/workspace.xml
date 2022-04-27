@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="bouton qui marche normalement">
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="connexion qui marche et fait des cookies">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/connexionReussie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/echecConnexion.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Beans/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/Utilisateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Beans/UtilisateurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/UtilisateurDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Connexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Connexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650962972081</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="connexion qui marche et fait des cookies">
+      <created>1651055720731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651055720731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +272,8 @@
     <MESSAGE value="projet restructuré qui est censé à peu près marcher" />
     <MESSAGE value="jsp qui marchent à peu près" />
     <MESSAGE value="inscription BDD qui marche pas des masse" />
-    <option name="LAST_COMMIT_MESSAGE" value="inscription BDD qui marche pas des masse" />
+    <MESSAGE value="connexion qui marche et fait des cookies" />
+    <option name="LAST_COMMIT_MESSAGE" value="connexion qui marche et fait des cookies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -34,7 +34,7 @@ public class Inscription extends HttpServlet {
         if (dao.checkMailExist(courriel)==true)
         {
             System.out.println("le mail existe");
-            this.getServletContext().getRequestDispatcher("/inscription.jsp").forward(request, response);
+            this.getServletContext().getRequestDispatcher("/echecInscription.jsp").forward(request, response);
             return;
         }
 
@@ -47,7 +47,7 @@ public class Inscription extends HttpServlet {
 
         for (Utilisateur a:utilisateurs) System.out.println(a);
         dao.cloture();
-        this.getServletContext().getRequestDispatcher("/affichageValeurs.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/connexion.jsp").forward(request, response);
     }
 
     @Override

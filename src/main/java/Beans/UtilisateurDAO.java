@@ -105,7 +105,9 @@ public class UtilisateurDAO {
 
                     System.out.println("Mail trouvé dans la base de données : "+rs.getString("mail"));
                     System.out.println("MDP trouvé dans la base de données : "+rs.getString("mdp"));
-                    if (mdp == rs.getString("mdp")) identifiantsValides= true;
+                    if (mdp.equals(rs.getString("mdp"))) {
+                        identifiantsValides= true;
+                    }
                 }
 
 
@@ -116,5 +118,27 @@ public class UtilisateurDAO {
         }
         System.out.println(identifiantsValides);
         return identifiantsValides;
+    }
+
+    public Utilisateur trouveUtilisateur (String mail){
+        Utilisateur u=new Utilisateur();
+
+        try {
+            Statement statement = connexion.createStatement();
+            String query = "SELECT * FROM utilisateur WHERE mail ='" + mail + "';";
+            ResultSet rs = statement.executeQuery(query);
+            while (rs.next()){
+                u.setPseudo(rs.getString("speudo"));
+                u.setMail(rs.getString("mail"));
+                u.setPassword(rs.getString("mdp"));
+
+            }
+
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+
+        }
+        return u;
     }
 }

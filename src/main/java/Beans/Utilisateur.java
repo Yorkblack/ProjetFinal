@@ -18,7 +18,7 @@ public class Utilisateur {
         return pseudo;
     }
 
-    public void setUtilisateur(String utilisateur) {
+    public void setPseudo(String utilisateur) {
         this.pseudo = utilisateur;
     }
 

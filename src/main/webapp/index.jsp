@@ -11,18 +11,18 @@
 <br/>
 
 <a href="inscription.jsp" class="btn btn-secondary btn-lg active" role="button"> Inscription </a>
-<a href="connexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Connection </a>
+<a href="connexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Connexion </a>
 <nav>
     <a href="#"></a>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Menu </a>
+            <a class="navbar-brand" href="index.jsp">Accueil </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="index.jsp">Accueil</a>
                     <a class="nav-link" href="ameriqueDuN.jsp">Amerique du nord</a>
                     <a class="nav-link" href="ameriqueDuS.jsp">Amerique du sud</a>
                     <a class="nav-link" href="asie.jsp">Asie</a>
@@ -101,10 +101,11 @@
             </div>
         </div> </div>
 
+
     <div class="row text-center">
         <div class="embed-responsive embed-responsive-16by9">
             <br>
-Lors ce que l'on pense au canidé on pense naturellement au loup et surtout au chien, mais il existe beaucoup d'espece; vous trouverez dans le menu des liste de canidae en fonction des continents ainsi qu'une bibliothèque afin d'avoir une vue d'ensemble.
+Lors ce que l'on pense au canidé on pense naturellement au loup et surtout au chien, mais il existe beaucoup d'espece; vous trouverez dans le menu des listes de canidae en fonction des continents ainsi qu'une bibliothèque afin d'avoir une vue d'ensemble.
             <br> <br>
 <h3> La domestication du chien </h3>
             La recherche de nourriture par les loups a constitué le point de départ de sa domestication. Pour cela, il s’est en effet rapproché des camps humains. Diverses hypothèses ont été avancées concernant cette domestication : chasse, gardiennage, compagnie et enfin d’après une étude récente, comme tête de bétail pour fournir de la viande aux hommes de l’époque.

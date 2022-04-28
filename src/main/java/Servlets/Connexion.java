@@ -36,6 +36,8 @@ public class Connexion extends HttpServlet {
             setCookie(response, "mail", currentUser.getMail(), 3600); //Durée de vie du cookie set à 1h, à modifier à terme
             setCookie(response, "mdp", currentUser.getPassword(), 3600); //Durée de vie du cookie set à 1h, à modifier à terme
 
+            dao.cloture();
+
             this.getServletContext().getRequestDispatcher("/connexionReussie.jsp").forward(request, response);
 
 

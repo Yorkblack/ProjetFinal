@@ -10,6 +10,8 @@
 
 <br/>
 
+<a href="inscription.jsp" class="btn btn-secondary btn-lg active" role="button"> Inscription </a>
+<a href="connexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Connexion </a>
 <nav>
     <a href="#"></a>
     <nav class="navbar navbar-dark bg-dark">

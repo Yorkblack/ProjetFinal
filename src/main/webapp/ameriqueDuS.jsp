@@ -52,7 +52,7 @@
 </nav>
 <br>
 <div class="text">
-    L'Amerique du Sud habrite le plus grand des canidés, le loup à crinière.
+    L'Amérique du Sud abrite le plus grand des canidés, le loup à crinière.
 <br> <br>
     <h2> Le Loup à crinière</h2>
     Le loup à crinière (Chrysocyon brachyurus) est une espèce de carnivores de la famille des canidés, originaire de l'Amérique du Sud. Il est le seul représentant de son genre : Chrysocyon. Bien que ressemblant à un loup ou à un grand renard, le loup à crinière est génétiquement distinct de tous les autres canidés.

@@ -28,7 +28,9 @@
             <a class="navbar-brand" href="index.jsp">Accueil </a>
 
             <a href="inscription.jsp" class="btn btn-secondary btn-lg active" role="button"> Inscription </a>
-            <a href="connexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Connexion </a>
+            <form action="Preconnexion" method="post">
+                <input type="submit" class="btn btn-secondary btn-lg active" role="button" value="Connexion">  </input>
+            </form>
             <a href="deconnexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Déconnexion </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

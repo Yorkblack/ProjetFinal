@@ -55,16 +55,16 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/loup.jpg" class="d-block" alt="loup" height=1080 width=1920 >
+                <img src="image/loup.jpg" class="d-block" alt="loup" >
             </div>
             <div class="carousel-item">
-                <img src="image/lycaon.jpg" class="d-block" alt="lycaon" height=1080 width=1920 >
+                <img src="image/lycaon.jpg" class="d-block" alt="lycaon"  >
             </div>
             <div class="carousel-item">
-                <img src="image/chacal.jpg" class="d-block" alt="chacal" height=1080 width=1920>
+                <img src="image/chacal-dore-canis-aureus-canide-xl.jpg" class="d-block" alt="chacal" >
             </div>
             <div class="carousel-item">
-                <img src="image/fennec.jpg" class="d-block" alt="fennec" height=1080 width=1920>
+                <img src="image/fennec.jpg" class="d-block" alt="fennec" >
             </div>
 
         </div>

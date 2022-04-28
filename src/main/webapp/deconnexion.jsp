@@ -12,6 +12,7 @@
     }
     body{
         background-image:url(image/deconection.jpg);
+        background-size: 1920px 1080px;
         opacity:90%;
     }
     </style>

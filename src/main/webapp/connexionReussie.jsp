@@ -19,7 +19,7 @@
   }
   body{
     background-image:url(image/coreussi.jpg);
-    background-size: 1500px 800px;
+    background-size: 1920px 1080px;
     opacity:90%;
   }
   </style>

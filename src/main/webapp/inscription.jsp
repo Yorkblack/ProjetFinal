@@ -6,7 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page isELIgnored="false" %><html>
 <head>
     <title>Title</title>
     <link href="css/boostrap/bootstrap.min.css" rel="stylesheet">
@@ -25,12 +26,7 @@
 </head>
 <body>
 <div id="image">
-<!--<form action="Inscription" method="post">
-    <label for="user">Nom d'utilisateur : </label><input type="text" id="user" name="user"/>
-    <label for="mail">Adresse mail : </label><input type="text" id="mail" name="mail"/>
-    <label for="mdp">Mot de passe : </label><input type="password" id="mdp" name="mdp"/>
-    <input type="submit" value="Valider">
-</form> -->
+<form action="Inscription" method="post">
 <form action="Inscription" method="post">
     <div class="mb-3">
         <label for="mail" class="form-label">Adresse mail :</label>

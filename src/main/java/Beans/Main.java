@@ -8,10 +8,12 @@ public class Main {
 
         AnimalDAO dao = new AnimalDAO();
         dao.initialisation();
-        List<Animal> animaux =dao.affichageAnimal("SELECT * FROM canidae");
+        String desc="";
+        List<Animal> animaux =dao.affichageAnimal("select * from canidae where zoneDeVie =\"Amerique du nord\" or zone2 =\"Amerique du nord\";");
         for (Animal a:animaux){
-            System.out.println(a);
+            desc+=a+"\n";
         }
+        System.out.println(desc);
 
     }
 }

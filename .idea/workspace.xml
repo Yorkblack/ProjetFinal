@@ -9,14 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="connexion et debut inscription">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/connexion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/connexion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/connexionReussie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/connexionReussie.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/deconnexion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/deconnexion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/echecConnexion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/echecConnexion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/echecInscription.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/echecInscription.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/inscription.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/inscription.jsp" afterDir="false" />
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="premier servlet Am du N, ajout support des EL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Yorkblack\IdeaProjects\ProjetFinal\src\main\webapp" />
@@ -69,26 +71,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.62">
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="adminPort" value="8005" />
-      <option name="contextPath" value="/ProjetFinal" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.62" />
-          <option name="number" value="0" />
-          <option name="path" value="D:\Activ\apache-tomcat-9.0.62" />
-          <option name="version" value="9.0.62.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Beans.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Beans.Main" />
       <module name="ProjetFinal" />
@@ -245,12 +227,12 @@
       <option name="project" value="LOCAL" />
       <updated>1651066223916</updated>
     </task>
-    <task id="LOCAL-00006" summary="connexion et debut inscription">
-      <created>1651141193897</created>
+    <task id="LOCAL-00006" summary="premier servlet Am du N, ajout support des EL">
+      <created>1651154465448</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1651141193897</updated>
+      <updated>1651154465448</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -275,8 +257,9 @@
     <MESSAGE value="inscription BDD qui marche pas des masse" />
     <MESSAGE value="Amerique du n fini, debut Asie" />
     <MESSAGE value="fin des pages" />
-    <MESSAGE value="connexion et debut inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="connexion et debut inscription" />
+    <MESSAGE value="Préconnexion est censé marcher, + j'ai créé Animal et AnimalDAO" />
+    <MESSAGE value="premier servlet Am du N, ajout support des EL" />
+    <option name="LAST_COMMIT_MESSAGE" value="premier servlet Am du N, ajout support des EL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

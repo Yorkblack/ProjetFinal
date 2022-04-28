@@ -39,13 +39,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Europe</a>
-                    <a class="nav-link" href="afrique.jsp">Afrique</a>
-                    <a class="nav-link" href="ameriqueDuN.jsp">Amerique du nord</a>
-                    <a class="nav-link" href="ameriqueDuS.jsp">Amerique du sud</a>
-                    <a class="nav-link" href="asie.jsp">Asie</a>
-                     <a class="nav-link" href="bibliotheque.jsp">Bibliothèque</a>
-                    <a class="nav-link" href="#">Profil/déconnection</a>
+                    <a class="nav-link active" aria-current="page" href="Europe">Europe</a>
+                    <a class="nav-link" href="Afrique">Afrique</a>
+                    <a class="nav-link" href="AmeriqueDuN">Amerique du nord</a>
+                    <a class="nav-link" href="AmeriqueDuS">Amerique du sud</a>
+                    <a class="nav-link" href="Asie">Asie</a>
 
                 </div>
             </div>
@@ -76,6 +74,10 @@
     <br>
     <br>
     Cependant, le chacal doré il n'est pas le seul canidé présent sur ce territoire de 10,53 millions de km². Vous pouvez vous renseigner sur d'autre canidae présent ci dessous :
+    <br>
+    <c:forEach items="${liste}" var="Animal">
+        <c:out value="${Animal}" /><br />
+    </c:forEach>
     <br>
     <br>
     <a href="index.jsp"> retour au menu </a>

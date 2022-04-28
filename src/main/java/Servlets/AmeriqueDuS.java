@@ -16,11 +16,7 @@ public class AmeriqueDuS extends HttpServlet {
         AnimalDAO dao = new AnimalDAO();
         dao.initialisation();
         List<Animal> animaux =dao.affichageAnimal("select * from canidae where zoneDeVie =\"Amerique du sud\" or zone2 =\"Amerique du sud\";");
-        String desc="";
-        for (Animal a:animaux){
-            desc+=a+"\n";
-        }
-        request.setAttribute("liste",desc);
+        request.setAttribute("liste",animaux);
         dao.cloture();
         this.getServletContext().getRequestDispatcher("/ameriqueDuS.jsp").forward(request, response);
 

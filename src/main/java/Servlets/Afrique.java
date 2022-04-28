@@ -16,11 +16,7 @@ public class Afrique extends HttpServlet {
         AnimalDAO dao = new AnimalDAO();
         dao.initialisation();
         List<Animal> animaux =dao.affichageAnimal("select * from canidae where zoneDeVie =\"Afrique\" or zone2 =\"Afrique\";");
-        String desc="";
-        for (Animal a:animaux){
-            desc+=a+"\n";
-        }
-        request.setAttribute("liste",desc);
+        request.setAttribute("liste",animaux);
         dao.cloture();
         this.getServletContext().getRequestDispatcher("/afrique.jsp").forward(request, response);
 

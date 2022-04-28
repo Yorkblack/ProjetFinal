@@ -31,14 +31,11 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.jsp">Accueil</a>
-                    <a class="nav-link" href="afrique.jsp">Afrique</a>
+                    <a class="nav-link" href="Afrique">Afrique</a>
                     <a class="nav-link" href="AmeriqueDuN">Amerique du nord</a>
-                    <a class="nav-link" href="ameriqueDuS.jsp">Amerique du sud</a>
-                    <a class="nav-link" href="asie.jsp">Asie</a>
-                    <a class="nav-link" href="europe.jsp">Europe</a>
-                    <a class="nav-link" href="bibliotheque.jsp">Bibliothèque</a>
-                    <a class="nav-link" href="#">Profil/déconnection</a>
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="AmeriqueDuS">Amerique du sud</a>
+                    <a class="nav-link" href="Asie">Asie</a>
+                    <a class="nav-link" href="Europe">Europe</a>
                 </div>
             </div>
         </div>
@@ -114,7 +111,7 @@
     <div class="row text-center">
         <div class="embed-responsive embed-responsive-16by9">
             <br>
-Lors ce que l'on pense au canidé on pense naturellement au loup et surtout au chien, mais il existe beaucoup d'espece; vous trouverez dans le menu des listes de canidae en fonction des continents ainsi qu'une bibliothèque afin d'avoir une vue d'ensemble.
+Lorsque que l'on pense au canidé on pense naturellement au loup et surtout au chien, mais il existe beaucoup d'espèces.
             <br> <br>
 <h3> La domestication du chien </h3>
             La recherche de nourriture par les loups a constitué le point de départ de sa domestication. Pour cela, il s’est en effet rapproché des camps humains. Diverses hypothèses ont été avancées concernant cette domestication : chasse, gardiennage, compagnie et enfin d’après une étude récente, comme tête de bétail pour fournir de la viande aux hommes de l’époque.

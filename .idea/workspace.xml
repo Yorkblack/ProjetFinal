@@ -9,11 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="premier servlet Am du N, ajout support des EL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" afterDir="false" />
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="servlets géographiques créés">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Europe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Europe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/asie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/asie.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/europe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/europe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +66,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Yorkblack\IdeaProjects\ProjetFinal\src\main\webapp" />
@@ -234,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651154465448</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="servlets géographiques créés">
+      <created>1651154828423</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651154828423</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +275,8 @@
     <MESSAGE value="fin des pages" />
     <MESSAGE value="Préconnexion est censé marcher, + j'ai créé Animal et AnimalDAO" />
     <MESSAGE value="premier servlet Am du N, ajout support des EL" />
-    <option name="LAST_COMMIT_MESSAGE" value="premier servlet Am du N, ajout support des EL" />
+    <MESSAGE value="servlets géographiques créés" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlets géographiques créés" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

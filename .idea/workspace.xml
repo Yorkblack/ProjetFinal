@@ -9,17 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="fin des pages">
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="connexion qui marche, cookie, session, affichage après connexion réussie ou échouée.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Beans/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Beans/AnimalDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/asie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/asie.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bibliotheque.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bibliotheque.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/connexion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/connexion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/europe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/europe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/inscription.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/inscription.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Beans/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Preconnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Preconnexion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,6 +59,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Yorkblack\IdeaProjects\ProjetFinal\src\main\webapp" />
@@ -71,27 +71,7 @@
       <recent name="C:\Users\Yorkblack\IdeaProjects\ProjetFinal\src\main\webapp\html" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.62">
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="adminPort" value="8005" />
-      <option name="contextPath" value="/ProjetFinal" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.62" />
-          <option name="number" value="0" />
-          <option name="path" value="D:\Activ\apache-tomcat-9.0.62" />
-          <option name="version" value="9.0.62.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Beans.Main">
     <configuration name="Beans.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Beans.Main" />
       <module name="ProjetFinal" />
@@ -192,6 +172,26 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/ProjetFinal" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.62" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\Activ\apache-tomcat-9.0.62" />
+          <option name="version" value="9.0.62.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Beans.Main" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.62" />
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651066223916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="déconnexion, faute d'ortho A du S">
+      <created>1651132550535</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651132550535</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,8 +277,7 @@
     <MESSAGE value="jsp qui marchent à peu près" />
     <MESSAGE value="inscription BDD qui marche pas des masse" />
     <MESSAGE value="Amerique du n fini, debut Asie" />
-    <MESSAGE value="fin des pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin des pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amerique du n fini, debut Asie" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

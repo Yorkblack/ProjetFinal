@@ -1,9 +1,17 @@
 package Beans;
+
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args){
 
-        BaseJDBC.testJDBC("SELECT Nom FROM animal");
+        AnimalDAO dao = new AnimalDAO();
+        dao.initialisation();
+        List<Animal> animaux =dao.affichageAnimal("SELECT * FROM canidae");
+        for (Animal a:animaux){
+            System.out.println(a);
+        }
 
     }
 }

@@ -6,6 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page isELIgnored="false" %>
+
 <html>
 <head>
     <style> #image { float:right;
@@ -82,7 +85,9 @@ Le coyote est un personnage proéminent du folklore amérindien, principalement 
 <br>
 <br>
 Cependant il n'est pas le seul canidé présent sur ce territoire de 24,71 millions de km². Vous pouvez vous renseigner sur d'autre canidae présent ci dessous :
+    <c:out value="${liste}"/>
 <br>
+
 <br>
 <a href="index.jsp"> retour au menu </a>
 </div>

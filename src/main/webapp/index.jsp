@@ -1,5 +1,6 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page isELIgnored="false" %><!DOCTYPE html>
 <html>
 <head>
     <link href="css/boostrap/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +32,7 @@
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.jsp">Accueil</a>
                     <a class="nav-link" href="afrique.jsp">Afrique</a>
-                    <a class="nav-link" href="ameriqueDuN.jsp">Amerique du nord</a>
+                    <a class="nav-link" href="AmeriqueDuN">Amerique du nord</a>
                     <a class="nav-link" href="ameriqueDuS.jsp">Amerique du sud</a>
                     <a class="nav-link" href="asie.jsp">Asie</a>
                     <a class="nav-link" href="europe.jsp">Europe</a>
@@ -54,16 +55,16 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/loup.jpg" class="d-block" alt="loup" height=800 width=1500 >
+                <img src="image/loup.jpg" class="d-block" alt="loup" height=1080 width=1920 >
             </div>
             <div class="carousel-item">
-                <img src="image/lycaon.jpg" class="d-block" alt="lycaon" height=800 width=1500 >
+                <img src="image/lycaon.jpg" class="d-block" alt="lycaon" height=1080 width=1920 >
             </div>
             <div class="carousel-item">
-                <img src="image/chacal.jpg" class="d-block" alt="chacal" height=800 width=1500>
+                <img src="image/chacal.jpg" class="d-block" alt="chacal" height=1080 width=1920>
             </div>
             <div class="carousel-item">
-                <img src="image/fennec.jpg" class="d-block" alt="fennec" height=800 width=1500>
+                <img src="image/fennec.jpg" class="d-block" alt="fennec" height=1080 width=1920>
             </div>
 
         </div>

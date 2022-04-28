@@ -9,14 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="fin des pages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Beans/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Beans/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/inscription.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/inscription.jsp" afterDir="false" />
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="premier servlet Am du N, ajout support des EL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651066223916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="premier servlet Am du N, ajout support des EL">
+      <created>1651154465448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651154465448</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +257,9 @@
     <MESSAGE value="inscription BDD qui marche pas des masse" />
     <MESSAGE value="Amerique du n fini, debut Asie" />
     <MESSAGE value="fin des pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin des pages" />
+    <MESSAGE value="Préconnexion est censé marcher, + j'ai créé Animal et AnimalDAO" />
+    <MESSAGE value="premier servlet Am du N, ajout support des EL" />
+    <option name="LAST_COMMIT_MESSAGE" value="premier servlet Am du N, ajout support des EL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

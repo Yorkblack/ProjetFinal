@@ -44,14 +44,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Amerique du nord</a>
-                    <a class="nav-link" href="afrique.jsp">Afrique</a>
-                    <a class="nav-link" href="ameriqueDuS.jsp">Amerique du sud</a>
-                    <a class="nav-link" href="asie.jsp">Asie</a>
-                    <a class="nav-link" href="europe.jsp">Europe</a>
-                    <a class="nav-link" href="bibliotheque.jsp">Bibliothèque</a>
-                    <a class="nav-link" href="#">Profil/déconnection</a>
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link active" aria-current="page" href="AmeriqueDuN">Amerique du nord</a>
+                    <a class="nav-link" href="Afrique">Afrique</a>
+                    <a class="nav-link" href="AmeriqueDuS">Amerique du sud</a>
+                    <a class="nav-link" href="Asie">Asie</a>
+                    <a class="nav-link" href="Europe">Europe</a>
                 </div>
             </div>
         </div>
@@ -85,8 +82,10 @@ Le coyote est un personnage proéminent du folklore amérindien, principalement 
 <br>
 <br>
 Cependant il n'est pas le seul canidé présent sur ce territoire de 24,71 millions de km². Vous pouvez vous renseigner sur d'autre canidae présent ci dessous :
-    <c:out value="${liste}"/>
 <br>
+    <c:forEach items="${liste}" var="Animal">
+        <c:out value="${Animal}" /><br />
+    </c:forEach>
 
 <br>
 <a href="index.jsp"> retour au menu </a>

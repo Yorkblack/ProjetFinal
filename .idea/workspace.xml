@@ -9,16 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="fin des pages">
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="connexion et debut inscription">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/asie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/asie.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bibliotheque.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bibliotheque.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/connexion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/connexion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/europe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/europe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/connexionReussie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/connexionReussie.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/deconnexion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/deconnexion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/echecConnexion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/echecConnexion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/echecInscription.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/echecInscription.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/inscription.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/inscription.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -248,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651066223916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="connexion et debut inscription">
+      <created>1651141193897</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651141193897</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +275,8 @@
     <MESSAGE value="inscription BDD qui marche pas des masse" />
     <MESSAGE value="Amerique du n fini, debut Asie" />
     <MESSAGE value="fin des pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin des pages" />
+    <MESSAGE value="connexion et debut inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="connexion et debut inscription" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

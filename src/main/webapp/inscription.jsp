@@ -13,11 +13,13 @@
     <style> #image {background-color: white;
         text-align:center;
         margin-top: 10vw;
-        padding: 1% 5%;
+        padding: 1% 2%;
         width: 50vw; margin-left : 25vw;
     }
     body{
-        background-image:url(image/loup.jpg);
+        background-image:url(image/fox.jpg);
+        background-size: 1500px 800px;
+        opacity:90%;
     }
     </style>
 </head>
@@ -29,7 +31,7 @@
     <label for="mdp">Mot de passe : </label><input type="password" id="mdp" name="mdp"/>
     <input type="submit" value="Valider">
 </form> -->
-
+<form action="Inscription" method="post">
     <div class="mb-3">
         <label for="mail" class="form-label">Adresse mail :</label>
         <div class="input-group has-validation">

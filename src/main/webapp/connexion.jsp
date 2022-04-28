@@ -18,6 +18,7 @@ margin-top: 10vw;
             }
     body{
         background-image:url(image/fennec.jpg);
+        opacity:90%;
     }
     </style>
 </head>

@@ -27,7 +27,7 @@
 <body>
 <div id="image">
 <form action="Inscription" method="post">
-<form action="Inscription" method="post">
+
     <div class="mb-3">
         <label for="mail" class="form-label">Adresse mail :</label>
         <div class="input-group has-validation">

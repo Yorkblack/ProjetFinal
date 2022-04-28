@@ -32,7 +32,7 @@
 
             <a href="inscription.jsp" class="btn btn-secondary btn-lg active" role="button"> Inscription </a>
             <a href="connexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Connexion </a>
-            <a href="#" class="btn btn-secondary btn-lg active" role="button"> Déconnexion </a>
+            <a href="deconnexion.jsp" class="btn btn-secondary btn-lg active" role="button"> Déconnexion </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

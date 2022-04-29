@@ -42,8 +42,11 @@ public class Animal {
     @Override
     public String toString() {
         String description;
-        if (tribu!=null) description="Le "+nomVulgaire+" appartient à la tribu "+tribu+", son nom scientifique est "+nomScientifique+", il vit en "+meuteSolitaire+" et a une espérance de vie de "+esperanceDeVie+" ans.";
-        else description="Le "+nomVulgaire+" a pour nom scientifique "+nomScientifique+", il vit en "+meuteSolitaire+" et a une espérance de vie de "+esperanceDeVie+" ans.";
+        if (tribu!=null) description="Le "+nomVulgaire+" appartient à la tribu "+tribu+", son nom scientifique est "+nomScientifique+", il vit en "+meuteSolitaire+".";
+        else description="Le "+nomVulgaire+" a pour nom scientifique "+nomScientifique+". Il vit en "+meuteSolitaire+".";
+        if (esperanceDeVie!=0) description+=" Son espérance de vie est de "+esperanceDeVie+" ans.";
+        else if (esperanceDeVie==0) description+=" Son espérance de vie est inconnue.";
+
         if (hauteurAuGarrot!=0) description+=" Sa hauteur au garrot est de "+hauteurAuGarrot+"cm.";
 
         if (zone2==null) description+=" Il vit en "+zoneDeVie+".";

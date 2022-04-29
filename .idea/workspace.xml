@@ -9,15 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="image">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="servlets géographiques créés">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Beans/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Europe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Europe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" afterDir="false" />
@@ -68,12 +68,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Yorkblack\IdeaProjects\ProjetFinal\src\main\webapp" />
@@ -269,7 +269,6 @@
     <MESSAGE value="Amerique du n fini, debut Asie" />
     <MESSAGE value="fin des pages" />
     <MESSAGE value="connexion et debut inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="connexion et debut inscription" />
     <MESSAGE value="Préconnexion est censé marcher, + j'ai créé Animal et AnimalDAO" />
     <MESSAGE value="premier servlet Am du N, ajout support des EL" />
     <MESSAGE value="servlets géographiques créés" />

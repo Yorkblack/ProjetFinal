@@ -28,7 +28,7 @@ public class Inscription extends HttpServlet {
 
         if (dao.checkPseudoExist(pseudo)==true) {
             System.out.println("le pseudo existe");
-            this.getServletContext().getRequestDispatcher("/inscription.jsp").forward(request, response);
+            this.getServletContext().getRequestDispatcher("/echecInscription.jsp").forward(request, response);
             return;
         }
         if (dao.checkMailExist(courriel)==true)

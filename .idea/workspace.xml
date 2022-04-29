@@ -9,20 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="servlets géographiques créés">
+    <list default="true" id="d7a59c97-5c68-450c-9445-b738cbe9aed2" name="Changes" comment="fin, manque juste photo lycaon et chacal pour carroussel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Beans/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Beans/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Afrique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/AmeriqueDuS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Asie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Europe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Europe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Inscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/afrique.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuN.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ameriqueDuS.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/asie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/asie.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/europe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/europe.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651154465448</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fin, manque juste photo lycaon et chacal pour carroussel">
+      <created>1651217189041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651217189041</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +267,8 @@
     <MESSAGE value="Préconnexion est censé marcher, + j'ai créé Animal et AnimalDAO" />
     <MESSAGE value="premier servlet Am du N, ajout support des EL" />
     <MESSAGE value="servlets géographiques créés" />
-    <option name="LAST_COMMIT_MESSAGE" value="servlets géographiques créés" />
+    <MESSAGE value="fin, manque juste photo lycaon et chacal pour carroussel" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin, manque juste photo lycaon et chacal pour carroussel" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

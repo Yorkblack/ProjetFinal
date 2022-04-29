@@ -54,10 +54,10 @@
                 <img src="image/loup.jpg" class="d-block" alt="loup" >
             </div>
             <div class="carousel-item">
-                <img src="image/lycaon.jpg" class="d-block" alt="lycaon"  >
+                <img src="image/chienbuisson.png" class="d-block" alt="lycaon" width="1920" height="1080">
             </div>
             <div class="carousel-item">
-                <img src="image/chacal-dore-canis-aureus-canide-xl.jpg" class="d-block" alt="chacal" >
+                <img src="image/renard.png" class="d-block" alt="chacal" >
             </div>
             <div class="carousel-item">
                 <img src="image/fennec.jpg" class="d-block" alt="fennec" >
